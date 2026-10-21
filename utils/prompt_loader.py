@@ -45,5 +45,5 @@ def load_report_prompts():
         raise e
 
 if __name__ == '__main__':
-    print(load_report_prompts())
+    print(load_system_prompts())
 

@@ -82,6 +82,5 @@ def fetch_external_data(user_id: str, month: str) -> str:
 def fill_context_for_report():
     return "fill_context_for_report已调用"
 
-
 # if __name__ == '__main__':
-#     print(fetch_external_data("1003", "2025-11"))
+#     print(fetch_external_data("1003", "2025-03"))       # 测试时需要把该函数的@tool 行注释掉

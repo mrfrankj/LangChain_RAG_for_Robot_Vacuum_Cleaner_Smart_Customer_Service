@@ -49,9 +49,9 @@ def pdf_loader(filepath: str, passwd=None) -> list[Document]:
 def txt_loader(filepath: str, passwd=None) -> list[Document]:
     return TextLoader(filepath, encoding="utf-8").load()
 
-# if __name__ == '__main__':
-#     file_list = listdir_with_allowed_type(
-#         r"D:\Prj\Langchain\AGENT_DEMO\chapter69AI大模型RAG与智能体开发_Agent项目\data", 
-#         (".txt", ".pdf"),
-#     )
-#     print(file_list)
+if __name__ == '__main__':
+    file_list = listdir_with_allowed_type(
+        r"D:\Prj\Langchain\AGENT_DEMO\chapter69AI大模型RAG与智能体开发_Agent项目\data", 
+        (".txt", ".pdf"),
+    )
+    print(file_list)
